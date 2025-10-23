@@ -1,0 +1,453 @@
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:11:25,021| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:11:25,037| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:11:25,041| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:11:25,072| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2025-10-23T10:11:26,678| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2025-10-23T10:11:26,696| looking for un-run change sets in snapshot version '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:28,200| Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:28,206| Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:31,054| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:11:31,735| file 'org\openmrs\liquibase\snapshots\schema-only\liquibase-schema-only-2.5.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:32,956| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:11:33,287| file 'org\openmrs\liquibase\snapshots\core-data\liquibase-core-data-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:11:33,319| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2025-10-23T10:11:33,321| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:34,611| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2025-10-23T10:11:34,707| file 'org\openmrs\liquibase\updates\liquibase-update-to-latest-2.6.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:11:34,707| Failed to restore the auto commit to true
+INFO - Slf4jMLog$Slf4jMLogger$InfoLogger.log(212) |2025-10-23T10:11:43,359| MLog clients using slf4j logging.
+INFO - Slf4jMLog$Slf4jMLogger$InfoLogger.log(212) |2025-10-23T10:11:43,572| Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+INFO - Slf4jMLog$Slf4jMLogger$InfoLogger.log(212) |2025-10-23T10:11:43,695| Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a024ffc3 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@abf6d872 [ acquireIncrement -> 1, acquireRetryAttempts -> 5, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 2t6q7fbe46c7lyp73jqo|34bfe03b, idleConnectionTestPeriod -> 3000, initialPoolSize -> 0, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 100, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 0, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@17a0b218 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 2t6q7fbe46c7lyp73jqo|61a3225a, jdbcUrl -> jdbc:mysql://localhost:3306/server-rekmed?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&sessionVariables=default_storage_engine%3DInnoDB, properties -> {password=******, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 2t6q7fbe46c7lyp73jqo|68d48c5f, numHelperThreads -> 3 ]
+INFO - Home.setHomeDirectory(47) |2025-10-23T10:11:53,922| hapi.home is set to C:\Users\wahha\openmrs\.
+INFO - VersionLogger.printHapiVersion(77) |2025-10-23T10:11:53,993| HAPI version is: 2.1
+INFO - VersionLogger.checkStructureLibraries(65) |2025-10-23T10:11:54,006| Default Structure libraries found for HL7 versions 2.3, 2.4, 2.5, 2.6, 
+INFO - MessageTypeRouter.registerApplication(121) |2025-10-23T10:11:54,084| org.openmrs.hl7.handler.ORUR01Handler registered to handle ORU^R01 messages
+INFO - MessageTypeRouter.registerApplication(121) |2025-10-23T10:11:54,084| org.openmrs.hl7.handler.ADTA28Handler registered to handle ADT^A28 messages
+WARN - Listener.loadBundledModules(591) |2025-10-23T10:11:55,906| Bundled module folder doesn't exist: C:\Users\wahha\openmrs\server-rekmed\tmp\openmrs\WEB-INF\bundledModules
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:11:55,908| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2025-10-23T10:11:56,268| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2025-10-23T10:11:56,269| looking for un-run change sets in snapshot version '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:11:58,012| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:11:58,700| file 'org\openmrs\liquibase\snapshots\schema-only\liquibase-schema-only-2.5.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:00,657| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:12:01,187| file 'org\openmrs\liquibase\snapshots\core-data\liquibase-core-data-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:12:01,188| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2025-10-23T10:12:01,188| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:02,863| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2025-10-23T10:12:02,959| file 'org\openmrs\liquibase\updates\liquibase-update-to-latest-2.6.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:12:02,963| Failed to restore the auto commit to true
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:17,583| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:17,911| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:17,955| Successfully released change log lock
+WARN - ModuleFactory.startModuleInternal(783) |2025-10-23T10:12:18,297| Error while trying to start module: spa
+org.openmrs.module.ModuleException: Module requires version matching 2.7.0.  Current code version is 2.6.7
+	at org.openmrs.module.ModuleUtil.checkRequiredVersion(ModuleUtil.java:397) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:650) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:86) ~[openmrs-api-2.6.7.jar:?]
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:21,425| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:21,689| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:21,697| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:23,563| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:23,840| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:23,855| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:26,366| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:26,471| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:26,479| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:28,737| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:28,813| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:28,818| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:30,019| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:30,128| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:30,138| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:31,308| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:31,375| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:31,386| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:32,732| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:32,787| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:32,792| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:33,902| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:33,956| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:33,966| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:35,273| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:35,358| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:35,367| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:36,580| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:36,680| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:36,687| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:37,781| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:37,840| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:37,848| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:39,163| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:39,235| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:39,247| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:40,815| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:40,899| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:40,911| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:42,161| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:42,220| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:42,238| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:43,565| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:43,627| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:43,637| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:45,120| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:45,279| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:45,318| Successfully released change log lock
+WARN - AppointmentProperties.load(22) |2025-10-23T10:12:45,457| Property file not found: C:\Users\wahha\openmrs\server-rekmed\appointment.properties
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:46,812| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:46,862| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:46,868| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:48,186| Reading from `server-rekmed`.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:48,241| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2025-10-23T10:12:48,251| Successfully released change log lock
+INFO - ServiceContext.startRefreshingContext(840) |2025-10-23T10:12:50,550| Refreshing Context
+INFO - Slf4jMLog$Slf4jMLogger$InfoLogger.log(212) |2025-10-23T10:13:17,714| Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c3a3a7ba [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@162a5a01 [ acquireIncrement -> 1, acquireRetryAttempts -> 5, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 2t6q7fbe46c7lyp73jqo|16a8bfe5, idleConnectionTestPeriod -> 3000, initialPoolSize -> 0, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 100, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 0, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6812c40d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 2t6q7fbe46c7lyp73jqo|6f94da62, jdbcUrl -> jdbc:mysql://localhost:3306/server-rekmed?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&sessionVariables=default_storage_engine%3DInnoDB, properties -> {password=******, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 2t6q7fbe46c7lyp73jqo|3db40d66, numHelperThreads -> 3 ]
+INFO - MessageTypeRouter.registerApplication(121) |2025-10-23T10:13:25,527| org.openmrs.hl7.handler.ORUR01Handler registered to handle ORU^R01 messages
+INFO - MessageTypeRouter.registerApplication(121) |2025-10-23T10:13:25,527| org.openmrs.hl7.handler.ADTA28Handler registered to handle ADT^A28 messages
+INFO - VersionUtil.initialize(84) |2025-10-23T10:13:26,420| HAPI FHIR version 5.7.9 - Rev 1fa074f0c3
+INFO - FhirContext.<init>(208) |2025-10-23T10:13:26,434| Creating new FHIR context for FHIR version [DSTU3]
+INFO - FhirContext.<init>(208) |2025-10-23T10:13:26,565| Creating new FHIR context for FHIR version [R4]
+WARN - IdgenTask.run(32) |2025-10-23T10:13:36,970| Not running scheduled task. DaemonToken = null; enabled = false
+INFO - ServiceContext.doneRefreshingContext(851) |2025-10-23T10:13:54,303| Done refreshing Context
+ERROR - AddressConfigurationLoader.loadAddressConfiguration(66) |2025-10-23T10:14:12,677| Address hierarchy configuration file appears invalid, skipping the loading process: C:\Users\wahha\openmrs\server-rekmed\configuration\addresshierarchy\addressConfiguration.xml
+INFO - TeleconsultationActivator.started(12) |2025-10-23T10:14:12,683| Started Teleconsultation
+ERROR - AddressConfigurationLoader.loadAddressConfiguration(66) |2025-10-23T10:14:13,649| Address hierarchy configuration file appears invalid, skipping the loading process: C:\Users\wahha\openmrs\server-rekmed\configuration\addresshierarchy\addressConfiguration.xml
+ERROR - BaseCsvLoader.lambda$load$0(117) |2025-10-23T10:14:16,152| An OpenMRS object could not be constructed or saved from the following CSV line:
++--------------------------------------+-------------+----------------+-----------------------------+-------------+--+
+| Uuid                                 | Void/Retire | Concept source | Url                         | _order:1000 |  |
++--------------------------------------+-------------+----------------+-----------------------------+-------------+--+
+| 2b3c1ff8-768a-102f-83f4-12313b04a615 |             |           CIEL | https://cielterminology.org |             |  |
++--------------------------------------+-------------+----------------+-----------------------------+-------------+--+
+java.lang.IllegalArgumentException: 'concept source 'CIEL' not found for FHIR concept source 2b3c1ff8-768a-102f-83f4-12313b04a615
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:57) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:17) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.display.DisplaysCsvParser.bootstrap(DisplaysCsvParser.java:34) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.initialize(CsvParser.java:230) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.process(CsvParser.java:198) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.load(BaseCsvLoader.java:99) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseInputStreamLoader.load(BaseInputStreamLoader.java:40) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.preload(BaseCsvLoader.java:72) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.preload(BaseFileLoader.java:51) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.lambda$loadUnsafe$1(BaseFileLoader.java:82) ~[initializer-api-2.7.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.loadUnsafe(BaseFileLoader.java:83) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.InitializerServiceImpl.loadUnsafe(InitializerServiceImpl.java:102) ~[initializer-api-2.7.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:351) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.openmrs.aop.LoggingAdvice.invoke(LoggingAdvice.java:123) ~[openmrs-api-2.6.7.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.sun.proxy.$Proxy305.loadUnsafe(Unknown Source) ~[?:?]
+	at org.openmrs.module.initializer.InitializerActivator.started(InitializerActivator.java:87) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:922) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:923) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:723) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:703) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:369) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.6.7.jar:?]
+ERROR - BaseCsvLoader.lambda$load$0(117) |2025-10-23T10:14:16,168| An OpenMRS object could not be constructed or saved from the following CSV line:
++--------------------------------------+-------------+----------------+------------------+-------------+--+
+| Uuid                                 | Void/Retire | Concept source | Url              | _order:1000 |  |
++--------------------------------------+-------------+----------------+------------------+-------------+--+
+| 249b13c8-72fa-4b96-8d3d-b200efed985e |             |          LOINC | http://loinc.org |             |  |
++--------------------------------------+-------------+----------------+------------------+-------------+--+
+java.lang.IllegalArgumentException: 'concept source 'LOINC' not found for FHIR concept source 249b13c8-72fa-4b96-8d3d-b200efed985e
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:57) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:17) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.display.DisplaysCsvParser.bootstrap(DisplaysCsvParser.java:34) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.initialize(CsvParser.java:230) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.process(CsvParser.java:198) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.load(BaseCsvLoader.java:99) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseInputStreamLoader.load(BaseInputStreamLoader.java:40) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.preload(BaseCsvLoader.java:72) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.preload(BaseFileLoader.java:51) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.lambda$loadUnsafe$1(BaseFileLoader.java:82) ~[initializer-api-2.7.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.loadUnsafe(BaseFileLoader.java:83) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.InitializerServiceImpl.loadUnsafe(InitializerServiceImpl.java:102) ~[initializer-api-2.7.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:351) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.openmrs.aop.LoggingAdvice.invoke(LoggingAdvice.java:123) ~[openmrs-api-2.6.7.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.sun.proxy.$Proxy305.loadUnsafe(Unknown Source) ~[?:?]
+	at org.openmrs.module.initializer.InitializerActivator.started(InitializerActivator.java:87) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:922) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:923) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:723) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:703) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:369) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.6.7.jar:?]
+ERROR - BaseCsvLoader.lambda$load$0(117) |2025-10-23T10:14:16,230| An OpenMRS object could not be constructed or saved from the following CSV line:
++--------------------------------------+-------------+----------------+-------------------------+-------------+--+
+| Uuid                                 | Void/Retire | Concept source | Url                     | _order:1000 |  |
++--------------------------------------+-------------+----------------+-------------------------+-------------+--+
+| 89532052-e89d-4a73-a760-5d6a6a9ce348 |             |      SNOMED CT | http://snomed.info/sct/ |             |  |
++--------------------------------------+-------------+----------------+-------------------------+-------------+--+
+java.lang.IllegalArgumentException: 'concept source 'SNOMED CT' not found for FHIR concept source 89532052-e89d-4a73-a760-5d6a6a9ce348
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:57) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:17) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.display.DisplaysCsvParser.bootstrap(DisplaysCsvParser.java:34) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.initialize(CsvParser.java:230) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.process(CsvParser.java:198) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.load(BaseCsvLoader.java:99) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseInputStreamLoader.load(BaseInputStreamLoader.java:40) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.preload(BaseCsvLoader.java:72) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.preload(BaseFileLoader.java:51) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.lambda$loadUnsafe$1(BaseFileLoader.java:82) ~[initializer-api-2.7.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.loadUnsafe(BaseFileLoader.java:83) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.InitializerServiceImpl.loadUnsafe(InitializerServiceImpl.java:102) ~[initializer-api-2.7.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:351) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.openmrs.aop.LoggingAdvice.invoke(LoggingAdvice.java:123) ~[openmrs-api-2.6.7.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.sun.proxy.$Proxy305.loadUnsafe(Unknown Source) ~[?:?]
+	at org.openmrs.module.initializer.InitializerActivator.started(InitializerActivator.java:87) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:922) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:923) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:723) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:703) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:369) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.6.7.jar:?]
+ERROR - BaseCsvLoader.lambda$load$0(117) |2025-10-23T10:14:16,303| An OpenMRS object could not be constructed or saved from the following CSV line:
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+
+| Uuid                                 | Void/Retire | Concept source               | Url                                                             | _order:1000 |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+
+| a7099e7e-a77f-48e6-9fad-aa441bd2df23 |             | HL7-MedicationDispenseStatus | http://terminology.hl7.org/CodeSystem/medicationdispense-status |             |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+
+java.lang.IllegalArgumentException: 'concept source 'HL7-MedicationDispenseStatus' not found for FHIR concept source a7099e7e-a77f-48e6-9fad-aa441bd2df23
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:57) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:17) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.display.DisplaysCsvParser.bootstrap(DisplaysCsvParser.java:34) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.initialize(CsvParser.java:230) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.process(CsvParser.java:198) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.load(BaseCsvLoader.java:99) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseInputStreamLoader.load(BaseInputStreamLoader.java:40) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.preload(BaseCsvLoader.java:72) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.preload(BaseFileLoader.java:51) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.lambda$loadUnsafe$1(BaseFileLoader.java:82) ~[initializer-api-2.7.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.loadUnsafe(BaseFileLoader.java:83) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.InitializerServiceImpl.loadUnsafe(InitializerServiceImpl.java:102) ~[initializer-api-2.7.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:351) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.openmrs.aop.LoggingAdvice.invoke(LoggingAdvice.java:123) ~[openmrs-api-2.6.7.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.sun.proxy.$Proxy305.loadUnsafe(Unknown Source) ~[?:?]
+	at org.openmrs.module.initializer.InitializerActivator.started(InitializerActivator.java:87) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:922) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:923) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:723) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:703) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:369) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.6.7.jar:?]
+ERROR - BaseCsvLoader.lambda$load$0(117) |2025-10-23T10:14:16,354| An OpenMRS object could not be constructed or saved from the following CSV line:
++--------------------------------------+-------------+----------------+----------------------------------------------------------------+-------------+--+
+| Uuid                                 | Void/Retire | Concept source | Url                                                            | _order:1000 |  |
++--------------------------------------+-------------+----------------+----------------------------------------------------------------+-------------+--+
+| dceac564-417d-40d0-a457-078b3f1fec5a |             |         ANCDAK | http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes |             |  |
++--------------------------------------+-------------+----------------+----------------------------------------------------------------+-------------+--+
+java.lang.IllegalArgumentException: 'concept source 'ANCDAK' not found for FHIR concept source dceac564-417d-40d0-a457-078b3f1fec5a
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:57) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.fhir.cs.FhirConceptSourceCsvParser.bootstrap(FhirConceptSourceCsvParser.java:17) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.display.DisplaysCsvParser.bootstrap(DisplaysCsvParser.java:34) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.initialize(CsvParser.java:230) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.CsvParser.process(CsvParser.java:198) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.load(BaseCsvLoader.java:99) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseInputStreamLoader.load(BaseInputStreamLoader.java:40) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseCsvLoader.preload(BaseCsvLoader.java:72) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.preload(BaseFileLoader.java:51) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.lambda$loadUnsafe$1(BaseFileLoader.java:82) ~[initializer-api-2.7.0.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.openmrs.module.initializer.api.loaders.BaseFileLoader.loadUnsafe(BaseFileLoader.java:83) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.initializer.api.InitializerServiceImpl.loadUnsafe(InitializerServiceImpl.java:102) ~[initializer-api-2.7.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:351) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.openmrs.aop.LoggingAdvice.invoke(LoggingAdvice.java:123) ~[openmrs-api-2.6.7.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.sun.proxy.$Proxy305.loadUnsafe(Unknown Source) ~[?:?]
+	at org.openmrs.module.initializer.InitializerActivator.started(InitializerActivator.java:87) ~[initializer-api-2.7.0.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:922) ~[openmrs-api-2.6.7.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:923) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:723) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:703) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:369) ~[openmrs-web-2.6.7.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.6.7.jar:?]
+ERROR - BaseFileLoader.preload(54) |2025-10-23T10:14:16,426| 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
++-+-+-+-- BEGINNING OF CSV FILE ERROR SUMMARY --+-+-+-+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+fhir_concept_sources-core_data.csv ('displays' domain) was processed and 5 out of 5 entities were not saved.
+The CSV line(s) corresponding to those entities are listed below:
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| Uuid                                 | Void/Retire | Concept source               | Url                                                             | _order:1000 |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| 2b3c1ff8-768a-102f-83f4-12313b04a615 |             |                         CIEL |                                     https://cielterminology.org |             |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| 249b13c8-72fa-4b96-8d3d-b200efed985e |             |                        LOINC |                                                http://loinc.org |             |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| 89532052-e89d-4a73-a760-5d6a6a9ce348 |             |                    SNOMED CT |                                         http://snomed.info/sct/ |             |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| a7099e7e-a77f-48e6-9fad-aa441bd2df23 |             | HL7-MedicationDispenseStatus | http://terminology.hl7.org/CodeSystem/medicationdispense-status |             |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+| dceac564-417d-40d0-a457-078b3f1fec5a |             |                       ANCDAK |  http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes |             |  |
++--------------------------------------+-------------+------------------------------+-----------------------------------------------------------------+-------------+--+
+
+Paste print for spreadsheets... etc:
+
+Uuid,Void/Retire,Concept source,Url,_order:1000
+2b3c1ff8-768a-102f-83f4-12313b04a615,,CIEL,https://cielterminology.org,,
+249b13c8-72fa-4b96-8d3d-b200efed985e,,LOINC,http://loinc.org,,
+89532052-e89d-4a73-a760-5d6a6a9ce348,,SNOMED CT,http://snomed.info/sct/,,
+a7099e7e-a77f-48e6-9fad-aa441bd2df23,,HL7-MedicationDispenseStatus,http://terminology.hl7.org/CodeSystem/medicationdispense-status,
+dceac564-417d-40d0-a457-078b3f1fec5a,,ANCDAK,http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes,,
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
++-+-+-+-+--  END OF CSV FILE ERROR SUMMARY  --+-+-+-+-+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ERROR - BaseFileLoader.lambda$loadUnsafe$3(89) |2025-10-23T10:14:16,640| Could not find a form named 'Adult HIV Return Visit Form'. Please ensure an existing form is configured.
+ERROR - BaseFileLoader.lambda$loadUnsafe$3(89) |2025-10-23T10:14:16,654| Could not find a form named 'Adult HIV Return Visit Form'. Please ensure an existing form is configured.
+ERROR - BaseFileLoader.lambda$loadUnsafe$3(89) |2025-10-23T10:14:16,669| Could not find a form named 'Test Form 1'. Please ensure an existing form is configured.
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,731| DWR Version 2.0.5 starting.
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,732| - Servlet Engine: Apache Tomcat/9.0.52
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,732| - Java Version:   11.0.28
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,732| - Java Vendor:    Oracle Corporation
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,890| Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only an problem if you wanted to use it.
+INFO - CommonsLoggingOutput.info(51) |2025-10-23T10:14:16,890| Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only an problem if you wanted to use it.
+INFO - RestfulServer.init(1351) |2025-10-23T10:14:16,985| Initializing HAPI FHIR restful server running in R4 mode
+INFO - RestfulServer.registerProviders(1723) |2025-10-23T10:14:16,985| Added 18 resource provider(s). Total 18
+INFO - RestfulServer.init(1399) |2025-10-23T10:14:18,709| A FHIR has been lit on this server
+INFO - RestfulServer.init(1351) |2025-10-23T10:14:18,720| Initializing HAPI FHIR restful server running in DSTU3 mode
+INFO - RestfulServer.registerProviders(1723) |2025-10-23T10:14:18,721| Added 17 resource provider(s). Total 17
+INFO - RestfulServer.init(1399) |2025-10-23T10:14:20,180| A FHIR has been lit on this server
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:14:20,205| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2033) |2025-10-23T10:14:20,489| Unable to find a runtime properties file at C:\Users\wahha\openmrs\openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2025-10-23T10:14:20,529| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2025-10-23T10:14:20,530| looking for un-run change sets in snapshot version '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:21,767| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:14:22,066| file 'org\openmrs\liquibase\snapshots\schema-only\liquibase-schema-only-2.5.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:22,994| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:14:23,340| file 'org\openmrs\liquibase\snapshots\core-data\liquibase-core-data-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:14:23,341| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2025-10-23T10:14:23,341| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:24,874| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2025-10-23T10:14:25,048| file 'org\openmrs\liquibase\updates\liquibase-update-to-latest-2.6.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:14:25,049| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2025-10-23T10:14:25,049| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2025-10-23T10:14:25,049| looking for un-run change sets in snapshot version '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:26,724| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:14:27,360| file 'org\openmrs\liquibase\snapshots\schema-only\liquibase-schema-only-2.5.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:29,507| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2025-10-23T10:14:29,649| file 'org\openmrs\liquibase\snapshots\core-data\liquibase-core-data-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:14:29,649| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2025-10-23T10:14:29,650| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.5.x'
+INFO - Slf4JLogger.log(43) |2025-10-23T10:14:30,902| Reading from `server-rekmed`.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2025-10-23T10:14:31,061| file 'org\openmrs\liquibase\updates\liquibase-update-to-latest-2.6.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2025-10-23T10:14:31,061| Failed to restore the auto commit to true

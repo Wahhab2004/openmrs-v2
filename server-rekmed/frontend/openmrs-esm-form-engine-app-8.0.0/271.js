@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_openmrs_esm_form_engine_app=globalThis.webpackChunk_openmrs_esm_form_engine_app||[]).push([[271],{8271:e=>{e.exports=JSON.parse('{"closeThisPanel":"关闭此面板","errorTitle":"此表单出现错误","loading":"加载中","or":"或者","thisList":"这个列表","tryAgainMessage":"尝试打开另一个表单 "}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_openmrs_esm_form_engine_app=globalThis.webpackChunk_openmrs_esm_form_engine_app||[]).push([[460],{4460:e=>{e.exports=JSON.parse('{"closeThisPanel":"أغلق هذه اللوحة","errorTitle":"كان هناك خطأ في هذا النموذج","loading":"جار التحميل","or":"أو","thisList":"هذه القائمة","tryAgainMessage":"حاول فتح نموذج آخر من"}')}}]);

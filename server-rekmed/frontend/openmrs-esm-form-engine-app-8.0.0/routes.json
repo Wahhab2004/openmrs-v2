@@ -1,0 +1,1 @@
+{"$schema":"https://json.openmrs.org/routes.schema.json","backendDependencies":{"webservices.rest":"^2.2.0"},"extensions":[{"name":"react-form-engine-widget","component":"formRenderer","slot":"form-widget-slot"},{"name":"rfe-form-collapse-toggle","component":"formCollapseToggle","slot":"patient-chart-workspace-header-slot"}],"pages":[],"version":"8.0.0"}

@@ -1,0 +1,811 @@
+{
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 1719648,
+      "sizes": {
+        "javascript": 1719648
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "29.js"
+      ],
+      "auxiliaryFiles": [
+        "29.js.map"
+      ],
+      "hash": "ec6fb60453e0184d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3528,
+      "sizes": {
+        "javascript": 3528
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "55.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "156c2d563cb7067c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "79680f1e6206659c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5030,
+      "sizes": {
+        "consume-shared": 42,
+        "javascript": 4988
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app"
+      ],
+      "files": [
+        "91.js"
+      ],
+      "auxiliaryFiles": [
+        "91.js.map"
+      ],
+      "hash": "1eed9be9b36a70f9",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 41654,
+      "sizes": {
+        "javascript": 41654
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "99.js"
+      ],
+      "auxiliaryFiles": [
+        "99.js.map"
+      ],
+      "hash": "a59a974a71c3d678",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 179748,
+      "sizes": {
+        "javascript": 179706,
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "101.js"
+      ],
+      "auxiliaryFiles": [
+        "101.js.map"
+      ],
+      "hash": "a479edd8a7f9c7e0",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 2930,
+      "sizes": {
+        "javascript": 2930
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "132.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "5ef95da94cd391af",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 89217,
+      "sizes": {
+        "javascript": 89175,
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "188.js"
+      ],
+      "auxiliaryFiles": [
+        "188.js.map"
+      ],
+      "hash": "492590c2034e9a9a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3010,
+      "sizes": {
+        "javascript": 3010
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "197.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "4bc836e08c90654a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 399,
+      "sizes": {
+        "javascript": 399
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "219.js"
+      ],
+      "auxiliaryFiles": [
+        "219.js.map"
+      ],
+      "hash": "f553e9689a72d04b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 10785,
+      "sizes": {
+        "javascript": 10785
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "221.js"
+      ],
+      "auxiliaryFiles": [
+        "221.js.map"
+      ],
+      "hash": "e4b288446c9cc203",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 39290,
+      "sizes": {
+        "javascript": 39290
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "259.js"
+      ],
+      "auxiliaryFiles": [
+        "259.js.map"
+      ],
+      "hash": "7eb228c774af160f",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3010,
+      "sizes": {
+        "javascript": 3010
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "300.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "5a0494b76cf27cb5",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "3b4c55594d3ddfc8",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 96581,
+      "sizes": {
+        "javascript": 96581
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "326.js"
+      ],
+      "auxiliaryFiles": [
+        "326.js.map"
+      ],
+      "hash": "5f77e3410ac920a3",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3010,
+      "sizes": {
+        "javascript": 3010
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "335.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "90f333cca5a7b1df",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 25530,
+      "sizes": {
+        "javascript": 25530
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "367.js"
+      ],
+      "auxiliaryFiles": [
+        "367.js.map"
+      ],
+      "hash": "a62ac69f0f82f8bd",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3423,
+      "sizes": {
+        "javascript": 3423
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "480.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "2c75b44f0bee17db",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "c67bbc4d631fc72b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7103,
+      "sizes": {
+        "javascript": 7103
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "540.js"
+      ],
+      "auxiliaryFiles": [
+        "540.js.map"
+      ],
+      "hash": "9643b38588e04a7d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1382,
+      "sizes": {
+        "javascript": 1340,
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "564.js"
+      ],
+      "auxiliaryFiles": [
+        "564.js.map"
+      ],
+      "hash": "0cea0a196dd52176",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 10785,
+      "sizes": {
+        "javascript": 10785
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "602.js"
+      ],
+      "auxiliaryFiles": [
+        "602.js.map"
+      ],
+      "hash": "4170a16c218a1478",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 25337,
+      "sizes": {
+        "javascript": 25337
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "626.js"
+      ],
+      "auxiliaryFiles": [
+        "626.js.map"
+      ],
+      "hash": "793af144d7145b86",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "e566b4eadae1c4a1",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3010,
+      "sizes": {
+        "javascript": 3010
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "652.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f8d991a1a8052cdc",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 544379,
+      "sizes": {
+        "javascript": 544379
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "685.js"
+      ],
+      "auxiliaryFiles": [
+        "685.js.map"
+      ],
+      "hash": "d9e6a7542993c67f",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 281468,
+      "sizes": {
+        "javascript": 281468
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "773.js"
+      ],
+      "auxiliaryFiles": [
+        "773.js.map"
+      ],
+      "hash": "15588110415cedfc",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 26839,
+      "sizes": {
+        "consume-shared": 42,
+        "javascript": 4988,
+        "share-init": 336,
+        "runtime": 21473
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "98f8bbac1c5622d9",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 235955,
+      "sizes": {
+        "javascript": 235955
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "893.js"
+      ],
+      "auxiliaryFiles": [
+        "893.js.map"
+      ],
+      "hash": "b79136e80f8c117e",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 2483502,
+      "sizes": {
+        "javascript": 2483502
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "941.js"
+      ],
+      "auxiliaryFiles": [
+        "941.js.map"
+      ],
+      "hash": "750a8f2166cc409f",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 137533,
+      "sizes": {
+        "javascript": 137533
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "961.js"
+      ],
+      "auxiliaryFiles": [
+        "961.js.map"
+      ],
+      "hash": "deae1a7df5f3d221",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 21484,
+      "sizes": {
+        "javascript": 42,
+        "share-init": 336,
+        "runtime": 21106
+      },
+      "names": [
+        "@openmrs/esm-fast-data-entry-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app"
+      ],
+      "files": [
+        "openmrs-esm-fast-data-entry-app.js"
+      ],
+      "auxiliaryFiles": [
+        "openmrs-esm-fast-data-entry-app.js.map"
+      ],
+      "hash": "7489b8e8e341e364",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 134918,
+      "sizes": {
+        "javascript": 134918
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-fast-data-entry-app",
+        "main"
+      ],
+      "files": [
+        "991.js"
+      ],
+      "auxiliaryFiles": [
+        "991.js.map"
+      ],
+      "hash": "d8332c31878a8650",
+      "childrenByOrder": {}
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_openmrs_esm_form_engine_app=globalThis.webpackChunk_openmrs_esm_form_engine_app||[]).push([[807],{7807:e=>{e.exports=JSON.parse('{"closeThisPanel":"បិទប្រអប់នេះ","errorTitle":"ទម្រង់នេះមិនដំណើរការ","loading":"កំពុងចម្លង...","or":"ឬ","thisList":"បញ្ជីនេះ។","tryAgainMessage":"ព្យាយាមបើកទម្រង់ផ្សេងទៀត"}')}}]);

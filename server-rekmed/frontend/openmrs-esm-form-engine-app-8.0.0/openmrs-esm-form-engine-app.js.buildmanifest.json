@@ -1,0 +1,953 @@
+{
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1493,
+      "sizes": {
+        "javascript": 1493
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "22.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "307e70ec19cbc6b7",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1232,
+      "sizes": {
+        "javascript": 1232
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "61.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "8e64d12ed53e5e15",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 84532,
+      "sizes": {
+        "javascript": 84532
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "76.js"
+      ],
+      "auxiliaryFiles": [
+        "76.js.map"
+      ],
+      "hash": "6dbeb546277c2ec3",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 480,
+      "sizes": {
+        "javascript": 480
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "152.js"
+      ],
+      "auxiliaryFiles": [
+        "152.js.map"
+      ],
+      "hash": "320442efeeb8d9ee",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 24311,
+      "sizes": {
+        "consume-shared": 42,
+        "javascript": 972,
+        "share-init": 378,
+        "runtime": 22919
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "81614a72c1e24286",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 5366276,
+      "sizes": {
+        "javascript": 5366276
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "215.js"
+      ],
+      "auxiliaryFiles": [
+        "215.js.map"
+      ],
+      "hash": "aa9d221911800ffc",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 25337,
+      "sizes": {
+        "javascript": 25337
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "255.js"
+      ],
+      "auxiliaryFiles": [
+        "255.js.map"
+      ],
+      "hash": "ba94b46796bacd54",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "875a7497ca2a4e6f",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 134,
+      "sizes": {
+        "javascript": 134
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "271.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "bf37072d4c7211bb",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 2326678,
+      "sizes": {
+        "javascript": 2326678
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "299.js"
+      ],
+      "auxiliaryFiles": [
+        "299.js.map"
+      ],
+      "hash": "da5402b218baaaf2",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 480,
+      "sizes": {
+        "javascript": 480
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "303.js"
+      ],
+      "auxiliaryFiles": [
+        "303.js.map"
+      ],
+      "hash": "a0fc0512912603ca",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 199,
+      "sizes": {
+        "javascript": 199
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "319.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "4fc67e43c992e292",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "b634c1d1d97ae27c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1330,
+      "sizes": {
+        "javascript": 1330
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "330.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "5ddc76e4191420cc",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 10785,
+      "sizes": {
+        "javascript": 10785
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "382.js"
+      ],
+      "auxiliaryFiles": [
+        "382.js.map"
+      ],
+      "hash": "022518e17e6e9b47",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 190,
+      "sizes": {
+        "javascript": 190
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "460.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "7e156db6385f2b77",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 306,
+      "sizes": {
+        "javascript": 306
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "574.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "cf7b6a4baca2dd54",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 6014,
+      "sizes": {
+        "javascript": 6014
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "580.js"
+      ],
+      "auxiliaryFiles": [
+        "580.js.map"
+      ],
+      "hash": "1ce2380a4a4ffe07",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 251616,
+      "sizes": {
+        "javascript": 251616
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "591.js"
+      ],
+      "auxiliaryFiles": [
+        "591.js.map"
+      ],
+      "hash": "be7cce85563c6cd0",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 10785,
+      "sizes": {
+        "javascript": 10785
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "635.js"
+      ],
+      "auxiliaryFiles": [
+        "635.js.map"
+      ],
+      "hash": "dd9e7fc3244e86e0",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 134,
+      "sizes": {
+        "javascript": 134
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "644.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "53fc853996ab3f81",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 39799,
+      "sizes": {
+        "javascript": 39799
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "727.js"
+      ],
+      "auxiliaryFiles": [
+        "727.js.map"
+      ],
+      "hash": "0a62ecc8be19e91a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 25530,
+      "sizes": {
+        "javascript": 25530
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "729.js"
+      ],
+      "auxiliaryFiles": [
+        "729.js.map"
+      ],
+      "hash": "6df469a7495a9ba5",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 199,
+      "sizes": {
+        "javascript": 199
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "757.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "330d11f4b7bfd771",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "ac86afa5b8e6eb72",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 11650,
+      "sizes": {
+        "javascript": 11650
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "783.js"
+      ],
+      "auxiliaryFiles": [
+        "783.js.map"
+      ],
+      "hash": "996a4fbb1eb3b14d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7103,
+      "sizes": {
+        "javascript": 7103
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "784.js"
+      ],
+      "auxiliaryFiles": [
+        "784.js.map"
+      ],
+      "hash": "acb6448554249401",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 199,
+      "sizes": {
+        "javascript": 199
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "788.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "75a52de18616870d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 1914060,
+      "sizes": {
+        "javascript": 1914060
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "799.js"
+      ],
+      "auxiliaryFiles": [
+        "799.js.map"
+      ],
+      "hash": "d8feff72b06a0ec2",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 182,
+      "sizes": {
+        "javascript": 182
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "807.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "53104b4c7bdac088",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 161,
+      "sizes": {
+        "javascript": 161
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "833.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "cf3831488a2b5deb",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 972,
+      "sizes": {
+        "javascript": 972
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app"
+      ],
+      "files": [
+        "842.js"
+      ],
+      "auxiliaryFiles": [
+        "842.js.map"
+      ],
+      "hash": "6ff367e9175b0ae0",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1220,
+      "sizes": {
+        "javascript": 1220
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "852.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "06514bc285688ae1",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 22942,
+      "sizes": {
+        "javascript": 42,
+        "share-init": 378,
+        "runtime": 22522
+      },
+      "names": [
+        "@openmrs/esm-form-engine-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app"
+      ],
+      "files": [
+        "openmrs-esm-form-engine-app.js"
+      ],
+      "auxiliaryFiles": [
+        "openmrs-esm-form-engine-app.js.map"
+      ],
+      "hash": "a211c4f6d83357d6",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7160,
+      "sizes": {
+        "javascript": 7160
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "879.js"
+      ],
+      "auxiliaryFiles": [
+        "879.js.map"
+      ],
+      "hash": "e5e75c04726e70cd",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 98761,
+      "sizes": {
+        "javascript": 98719,
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "910.js"
+      ],
+      "auxiliaryFiles": [
+        "910.js.map"
+      ],
+      "hash": "b770a969adb16583",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "4fd8d7ce81304372",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 40147,
+      "sizes": {
+        "javascript": 40147
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "935.js"
+      ],
+      "auxiliaryFiles": [
+        "935.js.map"
+      ],
+      "hash": "53d95107c805b107",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 14959,
+      "sizes": {
+        "javascript": 14875,
+        "consume-shared": 84
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [
+        "941.js"
+      ],
+      "auxiliaryFiles": [
+        "941.js.map"
+      ],
+      "hash": "0e7867622a06c807",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 84,
+      "sizes": {
+        "consume-shared": 84
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-form-engine-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "d93fcba0f2444168",
+      "childrenByOrder": {}
+    }
+  ]
+}
