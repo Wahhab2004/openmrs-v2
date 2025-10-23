@@ -3,7 +3,7 @@
 
 ---
 
-## 📦 1. Installai
+## 📦 1. Installasi
 
 1. Kunjungi tautan di bawah untuk _set up an instance of o3_ (openmrs):
    
@@ -58,3 +58,4 @@ Delete (DELETE)
 ✅ Selesai!
 
 Aplikasi OpenMRS kini telah berhasil dijalankan di lingkungan lokal dan siap digunakan untuk kebutuhan pengembangan serta pengujian lebih lanjut.
+
