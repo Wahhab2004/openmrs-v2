@@ -20,15 +20,15 @@
 
 ## 🚀 2. Akses Aplikasi
 
-1. Jalankan aplikasi OpenMRS di lokal dengan perintah _mvm openmrs-sdk:run_.
+1. Jalankan aplikasi OpenMRS di lokal dengan perintah _mvn openmrs-sdk:run_.
 2. Akses melalui browser pada alamat berikut:
    
-   🔗[https://localhost:8080/openmrs](https://localhost:8080/openmrs)
+   🔗[http://localhost:8080/openmrs](https://localhost:8080/openmrs)
   
 4. Masukkan kredensial berikut untuk login:
    ```bash
    Username: admin
-   Password: admin123
+   Password: Admin123
 
 ## ⚙️ 3. Instalasi Modul Tambahan
 
@@ -40,22 +40,21 @@
 ---
 
 ## 🧩 4. Verifikasi Modul Webservice
-1. Masuk ke menu Administration di dashboard.
+1. Masuk ke menu Administration di dashboard, lalu masuk ke _manage modules_ di **modules**.
 2. Pastikan modul Webservice sudah muncul dan berstatus Active.
 
 ---
 
 ## 🧪 5. Pengujian CRUD via Postman
 1. Gunakan koleksi [Postman](https://drive.google.com/file/d/1MmJoC2jKlxeRjFPYct4Azq7fgil57xXg/view?usp=sharing) yang telah disediakan untuk menguji operasi:
-Create (POST)
-Read (GET)
-Update (PUT)
-Delete (DELETE)
-2. Pastikan setiap endpoint berjalan dengan baik dan memberikan response sesuai ekspektasi.
+   Create (POST)
+   Read (GET)
+   Update (PUT)
+   Delete (DELETE)
 
 ---
 
-✅ Selesai!
 
-Aplikasi OpenMRS kini telah berhasil dijalankan di lingkungan lokal dan siap digunakan untuk kebutuhan pengembangan serta pengujian lebih lanjut.
+So you guys now can use OpenMRS Service for free in your local computer. Congrats!
+
 
